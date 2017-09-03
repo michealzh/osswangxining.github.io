@@ -1,0 +1,2516 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="专注于分布式技术架构、认知IoT云平台">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Technical Blog">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Technical Blog">
+<meta property="og:description" content="专注于分布式技术架构、认知IoT云平台">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Technical Blog">
+<meta name="twitter:description" content="专注于分布式技术架构、认知IoT云平台">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"always","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title> Technical Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Technical Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Welcome to my world!</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/chatterbot/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xi Ning Wang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/bio.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Technical Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/chatterbot/" itemprop="url">
+                  构建自己的聊天机器人（及如何接入微信）
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-03T10:46:25+08:00">
+                2017-09-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/AI/" itemprop="url" rel="index">
+                    <span itemprop="name">AI</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/AI/IOT/" itemprop="url" rel="index">
+                    <span itemprop="name">IOT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/chatterbot/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="chatterbot/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Chatbot的开发框架"><a href="#Chatbot的开发框架" class="headerlink" title="Chatbot的开发框架"></a>Chatbot的开发框架</h2><p>目前聊天机器人的云服务在各大公司中都有自己的框架，例如Facebook, 微软, Google以及IBM的Watson等。开源的框架中，基于机器学习的聊天机器人不多。其中，ChatterBot算是比较简洁（换种说话就是功能还比较弱）的一个，项目活跃, 文档清晰，代码也算干净利落。</p>
+<p>具体说来，ChatterBot是一个基于机器学习的聊天机器人引擎,构建在python上,可以从已有的对话中学习, 该项目的设计允许它接入任何语言。</p>
+<p>其特性：</p>
+<ul>
+<li>一个未经训练的ChatterBot机器人,并没有与用户交谈所需的知识。</li>
+<li>每当用户输入一句话，机器人将存下它，同时也存下答复的句子。 </li>
+<li>随着机器人接受的输入的增加，它能够回答的问题的数量和准确度都会相应提升.</li>
+</ul>
+<p>实现原理：</p>
+<ul>
+<li>首先从已知句子中匹配出与用户输入最相近的句子（如何衡量相近, 大家可以想想）；</li>
+<li>之后找到最有可能的回复，那么如何得出最有可能的回复呢？由所有和机器交流过的人们，对这个输入问题（匹配过的）的各个回答的频率决定；</li>
+</ul>
+<h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><h3 id="Python3"><a href="#Python3" class="headerlink" title="Python3"></a>Python3</h3><ul>
+<li>By default, python3.5.2 is installed in Ubuntu 16.04</li>
+<li>sudo apt-get install -y python3-pip</li>
+<li>pip3 install package_name</li>
+</ul>
+<h3 id="Installing-ChatterBot-from-source"><a href="#Installing-ChatterBot-from-source" class="headerlink" title="Installing ChatterBot from source"></a>Installing ChatterBot from source</h3><ul>
+<li>git clone <a href="https://github.com/gunthercox/ChatterBot.git" target="_blank" rel="external">https://github.com/gunthercox/ChatterBot.git</a></li>
+<li>pip3 install ./ChatterBot</li>
+</ul>
+<h3 id="Checking-the-version-of-ChatterBot-that-you-have-installed"><a href="#Checking-the-version-of-ChatterBot-that-you-have-installed" class="headerlink" title="Checking the version of ChatterBot that you have installed"></a>Checking the version of ChatterBot that you have installed</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">python3 -m chatterbot --version</div><div class="line">0.7.6</div></pre></td></tr></table></figure>
+<p>我用的是当前最新的版本0.7.6。</p>
+<h2 id="快速入门"><a href="#快速入门" class="headerlink" title="快速入门"></a>快速入门</h2><p>开发第一个入门的机器人例子。</p>
+<p>myfirstchatbot.py</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"># -*- coding: utf-8 -*-</div><div class="line">from chatterbot import ChatBot</div><div class="line">from chatterbot.trainers import ChatterBotCorpusTrainer</div><div class="line"></div><div class="line">chatbot = ChatBot(&quot;ChineseChatbot1&quot;)</div><div class="line">chatbot.set_trainer(ChatterBotCorpusTrainer)</div><div class="line">chatbot.train(&quot;chatterbot.corpus.chinese&quot;)</div><div class="line"></div><div class="line">question = &apos;早上好&apos;</div><div class="line">response = chatbot.get_response(question)</div><div class="line">print(question)</div><div class="line">print(response)</div><div class="line">print(&quot;###########################################&quot;)</div><div class="line">question = &quot;很高兴认识你&quot;</div><div class="line">print(question)</div><div class="line">print(chatbot.get_response(question))</div><div class="line">print(&quot;###########################################&quot;)</div><div class="line">question = &quot;嗨，最近如何?&quot;</div><div class="line">print(question)</div><div class="line">print(chatbot.get_response(question))</div><div class="line">print(&quot;###########################################&quot;)</div><div class="line">question = &quot;复杂优于晦涩&quot;</div><div class="line">print(question)</div><div class="line">print(chatbot.get_response(question))</div><div class="line">print(&quot;###########################################&quot;)</div><div class="line">question = &quot;面对模棱两可，拒绝猜测的诱惑.&quot;</div><div class="line">print(question)</div><div class="line">print(chatbot.get_response(question))</div><div class="line">print(&quot;###########################################&quot;)</div><div class="line">question = &quot;生命、宇宙以及世间万物的终极答案是什么?&quot;</div><div class="line">print(question)</div><div class="line">print(chatbot.get_response(question))</div><div class="line">print(&quot;###########################################&quot;)</div></pre></td></tr></table></figure>
+<p>运行 python3 myfirstchatbot.py, 结果如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">conversations.yml Training: [####################] 100%</div><div class="line">greetings.yml Training: [####################] 100%</div><div class="line">trivia.yml Training: [####################] 100%</div><div class="line">早上好</div><div class="line">很高兴认识你</div><div class="line">###########################################</div><div class="line">很高兴认识你</div><div class="line">谢谢你。你也一样.</div><div class="line">###########################################</div><div class="line">嗨，最近如何?</div><div class="line">挺好</div><div class="line">###########################################</div><div class="line">复杂优于晦涩</div><div class="line">简单优于复杂.</div><div class="line">###########################################</div><div class="line">面对模棱两可，拒绝猜测的诱惑.</div><div class="line">你似乎很熟悉Python之禅</div><div class="line">###########################################</div><div class="line">生命、宇宙以及世间万物的终极答案是什么?</div><div class="line">你想了解哪方面?</div><div class="line">###########################################</div></pre></td></tr></table></figure>
+<p>需要注意的是：</p>
+<ol>
+<li>中文支持需要使用Python3，中文语料库使用chatterbot.corpus.chinese。</li>
+<li>Chatterbot默认情况下会学习每一次输入，可以通过chatbot = ChatBot(“…”, read_only=True)设置成只读模式。</li>
+</ol>
+<h2 id="API接口"><a href="#API接口" class="headerlink" title="API接口"></a>API接口</h2><p>把聊天机器人封装为api服务，这样它的使用场合就不受限制了，能服务于任何http client。</p>
+<p>另一个原因是，微信接入脚本是python2的，而中文聊天机器人脚本基于python3。</p>
+<h3 id="创建API服务"><a href="#创建API服务" class="headerlink" title="创建API服务"></a>创建API服务</h3><p>使用hug作为API服务的框架，<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">安装依赖：pip3 install hug</div></pre></td></tr></table></figure></p>
+<p>创建bot_api.py:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">#!/usr/bin/env python</div><div class="line"># coding: utf-8</div><div class="line"></div><div class="line">from chatterbot import ChatBot</div><div class="line">from chatterbot.trainers import ChatterBotCorpusTrainer</div><div class="line">import hug</div><div class="line"></div><div class="line"></div><div class="line">weixinchatbot = ChatBot(&quot;weixinchatbot&quot;)</div><div class="line">weixinchatbot.set_trainer(ChatterBotCorpusTrainer)</div><div class="line"># 使用中文语料库训练它</div><div class="line">weixinchatbot.train(&quot;chatterbot.corpus.chinese&quot;)  # 语料库</div><div class="line"></div><div class="line"></div><div class="line">@hug.get()</div><div class="line">def get_response(user_input):</div><div class="line">    response = weixinchatbot.get_response(user_input).text</div><div class="line">    return &#123;&quot;response&quot;:response&#125;</div></pre></td></tr></table></figure></p>
+<h3 id="启动API服务"><a href="#启动API服务" class="headerlink" title="启动API服务"></a>启动API服务</h3><p>运行hug -f bot_api.py：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">xiningwang@ubuntu:~/ChatterBot/examples$ hug -f bot_api.py</div><div class="line">conversations.yml Training: [####################] 100%</div><div class="line">greetings.yml Training: [####################] 100%</div><div class="line">trivia.yml Training: [####################] 100%</div><div class="line"></div><div class="line">/#######################################################################\</div><div class="line">          `.----``..-------..``.----.</div><div class="line">         :/:::::--:---------:--::::://.</div><div class="line">        .+::::----##/-/oo+:-##----:::://</div><div class="line">        `//::-------/oosoo-------::://.       ##    ##  ##    ##    #####</div><div class="line">          .-:------./++o/o-.------::-`   ```  ##    ##  ##    ##  ##</div><div class="line">             `----.-./+o+:..----.     `.:///. ########  ##    ## ##</div><div class="line">   ```        `----.-::::::------  `.-:::://. ##    ##  ##    ## ##   ####</div><div class="line">  ://::--.``` -:``...-----...` `:--::::::-.`  ##    ##  ##   ##   ##    ##</div><div class="line">  :/:::::::::-:-     `````      .:::::-.`     ##    ##    ####     ######</div><div class="line">   ``.--:::::::.                .:::.`</div><div class="line">         ``..::.                .::         EMBRACE THE APIs OF THE FUTURE</div><div class="line">             ::-                .:-</div><div class="line">             -::`               ::-                   VERSION 2.3.1</div><div class="line">             `::-              -::`</div><div class="line">              -::-`           -::-</div><div class="line">\########################################################################/</div><div class="line"></div><div class="line"> Copyright (C) 2016 Timothy Edmund Crosley</div><div class="line"> Under the MIT License</div><div class="line"></div><div class="line"></div><div class="line">Serving on port 8000...</div></pre></td></tr></table></figure></p>
+<h3 id="API服务调用"><a href="#API服务调用" class="headerlink" title="API服务调用"></a>API服务调用</h3><p><img src="/images/chatbot-api-chrome.png" alt=""></p>
+<h2 id="接入微信"><a href="#接入微信" class="headerlink" title="接入微信"></a>接入微信</h2><p>基于wxBot项目，使得用代码与微信交互，这样一来使聊天过程（input/output）可编程，可以让聊天机器人接管我们的聊天。</p>
+<p>wxBot脚本到本地：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget https://raw.githubusercontent.com/liuwons/wxBot/master/wxbot.py</div></pre></td></tr></table></figure></p>
+<p>创建wechat_bot.py:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line">#!/usr/bin/env python</div><div class="line"># coding: utf-8</div><div class="line"></div><div class="line">from wxbot import WXBot</div><div class="line">import requests</div><div class="line">bot_api=&quot;http://127.0.0.1:8000/get_response&quot;</div><div class="line"></div><div class="line">class MyWXBot(WXBot):</div><div class="line">    def handle_msg_all(self, msg):</div><div class="line">        if msg[&apos;msg_type_id&apos;] == 4 and msg[&apos;content&apos;][&apos;type&apos;] == 0:</div><div class="line">            user_input = msg[&quot;content&quot;][&quot;data&quot;]</div><div class="line">            payload=&#123;&quot;user_input&quot;:user_input&#125;</div><div class="line">            response = requests.get(bot_api,params=payload).json()[&quot;response&quot;]</div><div class="line">            #print(type(response)) # unicode</div><div class="line">            self.send_msg_by_uid(response, msg[&apos;user&apos;][&apos;id&apos;])</div><div class="line"></div><div class="line">def main():</div><div class="line">    bot = MyWXBot()</div><div class="line">    bot.DEBUG = True</div><div class="line">    bot.conf[&apos;qr&apos;] = &apos;png&apos;</div><div class="line">    bot.run()</div><div class="line"></div><div class="line">if __name__ == &apos;__main__&apos;:</div><div class="line">    main()</div></pre></td></tr></table></figure></p>
+<p>安装依赖：pip install requests pyqrcode pypng Pillow</p>
+<p>开始运行(使用python2)：python wechat_bot.py</p>
+<p>之后扫码登录即可</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/ai-nlu/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xi Ning Wang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/bio.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Technical Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/ai-nlu/" itemprop="url">
+                  IoT - 人工智能
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-19T20:46:25+08:00">
+                2017-08-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/AI/" itemprop="url" rel="index">
+                    <span itemprop="name">AI</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/AI/IOT/" itemprop="url" rel="index">
+                    <span itemprop="name">IOT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/ai-nlu/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="ai-nlu/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="NLU"><a href="#NLU" class="headerlink" title="NLU"></a>NLU</h2><p>rasa NLU is an open source tool for intent classification and entity extraction.</p>
+<p>Rasa Core takes in structured input: intents and entities, button clicks, etc., and decides what your bot should do next.</p>
+<p><img src="https://lastmile-rasa-dm.readthedocs-hosted.com/en/latest/_images/rasa_arch.png" alt=""></p>
+<p>Rather than writing a bunch of if/else statements, a Rasa bot learns from real conversations. A probabilistic model chooses which action to take, and this can be trained using supervised, reinforcement, or interactive learning.</p>
+<h2 id="The-Big-Differences-IoT-Versus-Traditional-System-Data-and-Architecture"><a href="#The-Big-Differences-IoT-Versus-Traditional-System-Data-and-Architecture" class="headerlink" title="The Big Differences: IoT Versus Traditional System Data and Architecture"></a>The Big Differences: IoT Versus Traditional System Data and Architecture</h2><p><img src="https://osswangxining.github.io/images/illustration-iot.svg" alt=""></p>
+<table>
+<thead>
+<tr>
+<th>IOT DATA AND ARCHITECTURE</th>
+<th>TRADITIONAL SYSTEM DATA AND ARCHITECTURE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IoT data is distributed.</strong> In any given IoT scenario, data is distributed among devices, sometimes thousands of devices, that are often geographically dispersed. Compute and processing power must often take place on network edges.</td>
+<td><strong>Application data is created and stored centrally.</strong> Each application and system creates and stores its own data. Data from disparate applications is then aggregated and physically moved to a central location, such as an enterprise data warehouse, for analysis.</td>
+</tr>
+<tr>
+<td><strong>IoT data volume is increasing exponentially.</strong> The volume of data in IoT scenarios might start small, but with devices creating data non-stop, 24 hours a day, it doesn’t take long before IoT data volumes become truly massive. This requires a data management and analytics stack that scales to IoT data volumes.</td>
+<td><strong>Traditional application data growth is linear.</strong> Most of the data associated with traditional enterprise applications is created manually. This means the volume of traditional applications data, while growing, is not growing at nearly the pace of machine-generated data. Traditional storage and analytics technologies suffice.</td>
+</tr>
+<tr>
+<td><strong>Real-time and predictive analytics are required on IoT data.</strong> In order to deliver personalized services to customers and adapt equipment operations to maximize efficiencies, IoT data must be analyzed as it is created and be able to trigger corresponding actions.</td>
+<td><strong>Rear-view mirror analytics and reporting hinder teams’ ability to be proactive.</strong> Traditional applications and systems are often monolithic, containing a web of components that capture data but make it difficult to find and troubleshoot issues in real time. Analytics takes place well after data is created and provides largely backwards-looking views of events and operations.</td>
+</tr>
+<tr>
+<td><strong>IoT requires event-driven architecture.</strong> An event-driven architecture takes advantage of microservices and allows applications to notify each other of changes in state as they occur and trigger corresponding actions.</td>
+<td><strong>Traditional architecture is passive.</strong> Traditional application architectures are monolithic and don’t support real-time event notification.</td>
+</tr>
+<tr>
+<td><strong>IoT usage will change.</strong> The one constant in any IoT scenario is change. Data scientists and application developers are always looking for new and innovative IoT use cases, which means they need to continuously adapt existing applications and build new applications using Agile methodologies.</td>
+<td><strong>Application use is fairly static.</strong> Traditional enterprise applications are developed using a waterfall approach to meet existing needs. Applications are rarely updated or changed to meet changing business demands, and new applications take months, sometimes years, to develop and deploy to production.</td>
+</tr>
+</tbody>
+</table>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/kafkastreams/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xi Ning Wang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/bio.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Technical Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/kafkastreams/" itemprop="url">
+                  Kafka Streams
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-11T20:46:25+08:00">
+                2017-06-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Kafka-Streams/" itemprop="url" rel="index">
+                    <span itemprop="name">Kafka Streams</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Kafka-Streams/IOT/" itemprop="url" rel="index">
+                    <span itemprop="name">IOT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/kafkastreams/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="kafkastreams/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>Kafka Streams是一个客户端程序库，用于处理和分析存储在Kafka中的数据，并将得到的数据写回Kafka或发送到外部系统。Kafka Stream基于一个重要的流处理概念。如正确的区分事件时间和处理时间，窗口支持，以及简单而有效的应用程序状态管理,并利用kafka的并行模型来透明的处理相同的应用程序作负载平衡。</p>
+<ul>
+<li>一个简单的、轻量级的客户端库，可以很容易地嵌入在任何java应用程序与任何现有应用程序封装集成。</li>
+<li>Kafka本身作为内部消息层，没有外部系统的依赖，使用kafka的分区模型水平扩展处理，并同时保证有序。</li>
+<li>支持本地状态容错，非常快速、高效的状态操作（如join和窗口的聚合）。</li>
+<li>采用一次一个消息处理以实现低延迟，并支持基于事件时间(even-time)的窗口操作。</li>
+<li>提供必要的流处理原语(primitive)，以及一个 高级别的Steram DSL 和 低级别的Processor API。</li>
+</ul>
+<p>以下是几个关键概念的介绍。</p>
+<h3 id="Stream处理拓扑"><a href="#Stream处理拓扑" class="headerlink" title="Stream处理拓扑"></a>Stream处理拓扑</h3><p>流是Kafka Stream提出的最重要的抽象概念：它表示一个无限的，不断更新的数据集。流是一个有序的，可重放（反复的使用），不可变的容错序列，数据记录的格式是键值对（key-value）。通过Kafka Streams编写一个或多个的计算逻辑的处理器拓扑。其中处理器拓扑是一个由流（边缘）连接的流处理（节点）的图。</p>
+<p>流处理器是处理器拓扑中的一个节点；它表示一个处理的步骤，用来转换流中的数据（从拓扑中的上游处理器一次接受一个输入消息，并且随后产生一个或多个输出消息到其下游处理器中）。</p>
+<p><img src="https://kafka.apache.org/0102/images/streams-architecture-topology.jpg" alt=""></p>
+<p>在拓扑中有两个特别的处理器：</p>
+<ul>
+<li>源处理器（Source Processor）：源处理器是一个没有任何上游处理器的特殊类型的流处理器。它从一个或多个kafka主题生成输入流。通过消费这些主题的消息并将它们转发到下游处理器。</li>
+<li>Sink处理器：sink处理器是一个没有下游流处理器的特殊类型的流处理器。它接收上游流处理器的消息发送到一个指定的Kafka主题。</li>
+</ul>
+<h3 id="时间窗口"><a href="#时间窗口" class="headerlink" title="时间窗口"></a>时间窗口</h3><ul>
+<li>事件时间 - 当一个事件或数据记录发生的时间点，就是最初创建的“源头”。</li>
+<li>处理时间 - 事件或数据消息发生在流处理应用程序处理的时间点。即，记录已被消费。处理时间可能是毫秒，小时，或天等。比原始事件时间要晚。</li>
+<li>摄取时间 - 事件或数据记录是Kafka broker存储在topic分区的时间点。与事件时间的差异是，当记录由Kafka broker追加到目标topic时，生成的摄取时间戳，而不是消息创建时间（“源头”）。与处理时间的差异是处理时间是流处理应用处理记录时的时间。比如，如果一个记录从未被处理，那么久没有处理时间，但仍然有摄取时间。</li>
+</ul>
+<h3 id="状态存储"><a href="#状态存储" class="headerlink" title="状态存储"></a>状态存储</h3><p>Kafka Stream提供了所谓的状态存储，流处理程序可以用来存储和查询数据。在Kafka Stream中的每一个任务嵌入了一个或多个状态存储，可通过API来存储和查询处理所需的数据。状态存储可以是一个持久的key/value存储，内存中的HashMap，或者是其他的数据结构。Kafka Stream提供了本地状态存储的故障容错和自动恢复。<br><img src="https://kafka.apache.org/0102/images/streams-architecture-states.jpg" alt=""></p>
+<h2 id="架构"><a href="#架构" class="headerlink" title="架构"></a>架构</h2>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/istio/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xi Ning Wang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/bio.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Technical Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/istio/" itemprop="url">
+                  Istio
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-27T20:46:25+08:00">
+                2017-05-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/分布式-云计算/" itemprop="url" rel="index">
+                    <span itemprop="name">分布式&云计算</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/分布式-云计算/微服务/" itemprop="url" rel="index">
+                    <span itemprop="name">微服务</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/istio/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="istio/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>Istio是一个用于连接/管理以及安全化微服务的开放平台, 提供了一种简单的方式用于创建微服务网络,并提供负载均衡/服务间认证/监控等能力,关键的是并不需要修改服务本身. 主要提供以下功能:</p>
+<ul>
+<li>Traffic Management: 控制服务之间调用的流量和API调用;</li>
+<li>Observability: 获取服务之间的依赖,以及服务调用的流量走向;</li>
+<li>Policy Enforcement: 控制服务的访问策略,不需要改动服务本身;</li>
+<li>Service Identity and Security: 服务身份与安全相关的功能;</li>
+</ul>
+<h2 id="架构"><a href="#架构" class="headerlink" title="架构"></a>架构</h2><p>Istio从架构上看,主要分为2个部分,即:</p>
+<ul>
+<li>控制面板: 管理代理,用于支持流量路由/运行时执行策略等;</li>
+<li>数据面板: 由一系列的智能代理(Envoy)构成,用于仲裁和控制服务之间的网络交互;</li>
+</ul>
+<p><img src="/images/istio-arch.png" alt="Istio Arch"></p>
+<h3 id="Envoy"><a href="#Envoy" class="headerlink" title="Envoy"></a>Envoy</h3><p>Built-in features:</p>
+<ul>
+<li>dynamic service discovery,</li>
+<li>load balancing,</li>
+<li>TLS termination,</li>
+<li>HTTP/2 &amp; gRPC proxying,</li>
+<li>circuit breakers,</li>
+<li>health checks,</li>
+<li>staged rollouts with %-based traffic split,</li>
+<li>fault injection,</li>
+<li>rich metrics</li>
+</ul>
+<p>Envoy将作为一个独立的sidecar与相关微服务部署在同一个Kubernetes的pod上,并提供一系列的属性给Mixer.Mixer以此作为依据执行策略,并发送到监控系统.</p>
+<p>这种sidecar代理模型不需要改变任何服务本身的逻辑,并能增加一系列的功能.</p>
+<h3 id="Mixer"><a href="#Mixer" class="headerlink" title="Mixer"></a>Mixer</h3><p>Mixer负责执行访问控制与使用的策略,并从Envoy收集数据.提供了一个plugin,可以扩展支持多种host环境和backend.</p>
+<h3 id="Istio-Manager"><a href="#Istio-Manager" class="headerlink" title="Istio-Manager"></a>Istio-Manager</h3><p>用户与Istio之间的接口, 收集并验证配置信息并发送给其他组件.作为流量管理的核心附件, Istio-Manager管理所有配置的Envoy代理实例,并提供如下流量管理方式:<br><img src="/images/TrafficManagementOverview-2.png" alt=""></p>
+<p><img src="/images/ManagerAdapters.png" alt=""></p>
+<h3 id="Istio-Auth"><a href="#Istio-Auth" class="headerlink" title="Istio-Auth"></a>Istio-Auth</h3><p>提供服务间以及用户之间的认证,确保不需要修改服务code的前提下增强服务之间的安全性. 主要包括以下3个组件:</p>
+<ul>
+<li>身份识别<ul>
+<li>当Istio运行在Kubernetes时,Auth会使用Kubernetes提供的服务账号来识别运行服务的主体是谁.</li>
+</ul>
+</li>
+<li>key管理<ul>
+<li>Auth提供了一个CA自动化生成和管理key和证书.</li>
+</ul>
+</li>
+<li>通讯安全<ul>
+<li>服务间的通讯通过Envoy在客户端和服务端提供tunnel来保证服务调用的安全.</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/Istio_Auth.png" alt=""></p>
+<h2 id="分布式跟踪"><a href="#分布式跟踪" class="headerlink" title="分布式跟踪"></a>分布式跟踪</h2><p>Istio的分布式跟踪是基于Twitter开源的<a href="zipkin/">zipkin</a>分布式跟踪系统,理论模型来自于Google Dapper 论文.</p>
+<h3 id="启动zipkin"><a href="#启动zipkin" class="headerlink" title="启动zipkin"></a>启动zipkin</h3><p>安装Istio时会启动zipkin addon,当然也可以使用如下命令启动:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">kubectl apply -f install/kubernetes/addons/zipkin.yaml</div></pre></td></tr></table></figure></p>
+<h3 id="访问zipkin"><a href="#访问zipkin" class="headerlink" title="访问zipkin"></a>访问zipkin</h3><p>访问zipkin dashboard: <a href="http://localhost:9411" target="_blank" rel="external">http://localhost:9411</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">kubectl port-forward $(kubectl get pod -l app=zipkin -o jsonpath=&apos;&#123;.items[0].metadata.name&#125;&apos;) 9411:9411</div></pre></td></tr></table></figure></p>
+<h3 id="在服务中enable-trace"><a href="#在服务中enable-trace" class="headerlink" title="在服务中enable trace"></a>在服务中enable trace</h3><p>服务本身实现需要做一定的改动,即从最初始的HTTP请求中获取以下header并传递给其他的请求:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">x-request-id</div><div class="line">x-b3-traceid</div><div class="line">x-b3-spanid</div><div class="line">x-b3-parentspanid</div><div class="line">x-b3-sampled</div><div class="line">x-b3-flags</div><div class="line">x-ot-span-context</div></pre></td></tr></table></figure></p>
+<h2 id="启用Ingress"><a href="#启用Ingress" class="headerlink" title="启用Ingress"></a>启用Ingress</h2><p>在Kubernetes环境下, Istio使用了内置的Ingress来暴露服务,目前支持HTTP和HTTPS两种方式. 具体的Ingress,参见<a href="/kubernetes-ingress/">Kubernetes Ingress</a>.</p>
+<h3 id="配置HTTP服务"><a href="#配置HTTP服务" class="headerlink" title="配置HTTP服务"></a>配置HTTP服务</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">cat &lt;&lt;EOF | kubectl create -f -</div><div class="line">apiVersion: extensions/v1beta1</div><div class="line">kind: Ingress</div><div class="line">metadata:</div><div class="line">  name: simple-ingress</div><div class="line">  annotations:</div><div class="line">    kubernetes.io/ingress.class: istio</div><div class="line">spec:</div><div class="line">  rules:</div><div class="line">  - http:</div><div class="line">      paths:</div><div class="line">      - path: /headers</div><div class="line">        backend:</div><div class="line">          serviceName: httpbin</div><div class="line">          servicePort: 8000</div><div class="line">      - path: /delay/.*</div><div class="line">        backend:</div><div class="line">          serviceName: httpbin</div><div class="line">          servicePort: 8000</div><div class="line">EOF</div></pre></td></tr></table></figure>
+<h3 id="配置HTTPS服务"><a href="#配置HTTPS服务" class="headerlink" title="配置HTTPS服务"></a>配置HTTPS服务</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">cat &lt;&lt;EOF | kubectl create -f -</div><div class="line">apiVersion: extensions/v1beta1</div><div class="line">kind: Ingress</div><div class="line">metadata:</div><div class="line">  name: secured-ingress</div><div class="line">  annotations:</div><div class="line">    kubernetes.io/ingress.class: istio</div><div class="line">spec:</div><div class="line">  tls:</div><div class="line">    - secretName: ingress-secret</div><div class="line">  rules:</div><div class="line">  - http:</div><div class="line">      paths:</div><div class="line">      - path: /ip</div><div class="line">        backend:</div><div class="line">          serviceName: httpbin</div><div class="line">          servicePort: 8000</div><div class="line">EOF</div></pre></td></tr></table></figure>
+<h2 id="启用Egress"><a href="#启用Egress" class="headerlink" title="启用Egress"></a>启用Egress</h2><p>默认情况下,Istio中的服务是无法访问cluster之外的服务的,这是因为pod中的iptable设置为所有的对外请求都指向sidecar proxy. 而为了能访问外部服务, Istio提供了两种方式来解决这个问题.</p>
+<h3 id="配置外部服务"><a href="#配置外部服务" class="headerlink" title="配置外部服务"></a>配置外部服务</h3><p>注册一个HTTP和HTTPS服务, 如下:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">cat &lt;&lt;EOF | kubectl create -f -</div><div class="line">apiVersion: v1</div><div class="line">kind: Service</div><div class="line">metadata:</div><div class="line"> name: externalbin</div><div class="line">spec:</div><div class="line"> type: ExternalName</div><div class="line"> externalName: httpbin.org</div><div class="line"> ports:</div><div class="line"> - port: 80</div><div class="line">   # important to set protocol name</div><div class="line">   name: http</div><div class="line">EOF</div></pre></td></tr></table></figure></p>
+<p>或者<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">cat &lt;&lt;EOF | kubectl create -f -</div><div class="line">apiVersion: v1</div><div class="line">kind: Service</div><div class="line">metadata:</div><div class="line"> name: securegoogle</div><div class="line">spec:</div><div class="line"> type: ExternalName</div><div class="line"> externalName: www.google.com</div><div class="line"> ports:</div><div class="line"> - port: 443</div><div class="line">   # important to set protocol name</div><div class="line">   name: https</div><div class="line">EOF</div></pre></td></tr></table></figure></p>
+<p>其中, metadata.name 就是内部服务所需要访问的外部服务的名称, spec.externalName则是外部服务的DNS名称.</p>
+<p>执行如下命令可以尝试访问外部服务,<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">export SOURCE_POD=$(kubectl get pod -l app=sleep -o jsonpath=&#123;.items..metadata.name&#125;)</div><div class="line">kubectl exec -it $SOURCE_POD -c sleep bash</div><div class="line">curl http://externalbin/headers</div><div class="line">curl http://securegoogle:443</div></pre></td></tr></table></figure></p>
+<h3 id="直接访问外部服务"><a href="#直接访问外部服务" class="headerlink" title="直接访问外部服务"></a>直接访问外部服务</h3><p>Istio Egress目前只支持访问HTTP/HTTPS请求,而为了支持其他协议请求(如mqtt, mongo等), 就需要配置服务的Envoy sidecar来避免截取外部请求.<br>最简单的方式是使用参数–includeIPRanges来指定内部cluster服务所使用的IP范围.</p>
+<blockquote>
+<p>Note: 不同的cloud provider所支持的IP范围和获取方式不尽相同.</p>
+</blockquote>
+<p>例如, minikube支持如下:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">kubectl apply -f &lt;(istioctl kube-inject -f samples/apps/sleep/sleep.yaml --includeIPRanges=10.0.0.1/24)</div></pre></td></tr></table></figure></p>
+<h2 id="配置请求路由"><a href="#配置请求路由" class="headerlink" title="配置请求路由"></a>配置请求路由</h2><p>默认配置下,Istio会将所有的请求路由到同一个服务的所有版本上.此外,Istio提供了根据请求内容的路由规则,如下规则描述了所有的请求都会指向服务的版本v1:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div></pre></td><td class="code"><pre><div class="line">type: route-rule</div><div class="line">name: ratings-default</div><div class="line">namespace: default</div><div class="line">spec:</div><div class="line">  destination: ratings.default.svc.cluster.local</div><div class="line">  precedence: 1</div><div class="line">  route:</div><div class="line">  - tags:</div><div class="line">      version: v1</div><div class="line">    weight: 100</div><div class="line">---</div><div class="line">type: route-rule</div><div class="line">name: reviews-default</div><div class="line">namespace: default</div><div class="line">spec:</div><div class="line">  destination: reviews.default.svc.cluster.local</div><div class="line">  precedence: 1</div><div class="line">  route:</div><div class="line">  - tags:</div><div class="line">      version: v1</div><div class="line">    weight: 100</div><div class="line">---</div><div class="line">type: route-rule</div><div class="line">name: details-default</div><div class="line">namespace: default</div><div class="line">spec:</div><div class="line">  destination: details.default.svc.cluster.local</div><div class="line">  precedence: 1</div><div class="line">  route:</div><div class="line">  - tags:</div><div class="line">      version: v1</div><div class="line">    weight: 100</div><div class="line">---</div><div class="line">type: route-rule</div><div class="line">name: productpage-default</div><div class="line">namespace: default</div><div class="line">spec:</div><div class="line">  destination: productpage.default.svc.cluster.local</div><div class="line">  precedence: 1</div><div class="line">  route:</div><div class="line">  - tags:</div><div class="line">      version: v1</div><div class="line">    weight: 100</div><div class="line">---</div></pre></td></tr></table></figure></p>
+<p>如果需要将某些请求指向其他版本的服务,如根据请求的cookie进行路由:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">destination: reviews.default.svc.cluster.local</div><div class="line">match:</div><div class="line">  httpHeaders:</div><div class="line">    cookie:</div><div class="line">      regex: ^(.*?;)?(user=jason)(;.*)?$</div><div class="line">precedence: 2</div><div class="line">route:</div><div class="line">- tags:</div><div class="line">    version: v2</div></pre></td></tr></table></figure></p>
+<p>其他具体的规则,参见: <a href="https://istio.io/docs/reference/config/traffic-rules/routing-rules.html#routerule" target="_blank" rel="external">https://istio.io/docs/reference/config/traffic-rules/routing-rules.html#routerule</a></p>
+<h2 id="错误注入"><a href="#错误注入" class="headerlink" title="错误注入"></a>错误注入</h2><p>Istio提供2种错误类型可以注入到请求中:</p>
+<ul>
+<li>delays: 属于时序故障,模拟网络延迟或者上游服务负载过重等;</li>
+<li>aborts: 属于崩溃故障,模拟上游服务出现故障;一般返回HTTP Error Code或者TCP连接错误代码;</li>
+</ul>
+<p>故障注入规则描述如下例子所述:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">destination: ratings.default.svc.cluster.local</div><div class="line">httpFault:</div><div class="line">  delay:</div><div class="line">    fixedDelay: 7s</div><div class="line">    percent: 100</div><div class="line">match:</div><div class="line">  httpHeaders:</div><div class="line">    cookie:</div><div class="line">      regex: &quot;^(.*?;)?(user=jason)(;.*)?$&quot;</div><div class="line">precedence: 2</div><div class="line">route:</div><div class="line"> - tags:</div><div class="line">    version: v1</div></pre></td></tr></table></figure>
+<h2 id="设置请求超时"><a href="#设置请求超时" class="headerlink" title="设置请求超时"></a>设置请求超时</h2><p>HTTP请求超时可以通过在路由规则中设置字段httpReqTimeout实现.<br>具体例子如下:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">cat &lt;&lt;EOF | istioctl replace</div><div class="line">type: route-rule</div><div class="line">name: reviews-default</div><div class="line">spec:</div><div class="line">  destination: reviews.default.svc.cluster.local</div><div class="line">  route:</div><div class="line">  - tags:</div><div class="line">      version: v2</div><div class="line">  httpReqTimeout:</div><div class="line">    simpleTimeout:</div><div class="line">      timeout: 1s</div><div class="line">EOF</div></pre></td></tr></table></figure></p>
+<h2 id="限流"><a href="#限流" class="headerlink" title="限流"></a>限流</h2><p>在Istio的mixer中配置限流规则,如下ratelimit.yaml:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">rules:</div><div class="line">- selector: source.labels[&quot;app&quot;]==&quot;reviews&quot; &amp;&amp; source.labels[&quot;version&quot;] == &quot;v3&quot;  </div><div class="line">- aspects:</div><div class="line">  - kind: quotas</div><div class="line">    params:</div><div class="line">      quotas:</div><div class="line">      - descriptorName: RequestCount</div><div class="line">        maxAmount: 5000</div><div class="line">        expiration: 5s</div><div class="line">        labels:</div><div class="line">          label1: target.service</div></pre></td></tr></table></figure></p>
+<p>如果target.service=rating, 那么计数器的key则为:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$aspect_id;RequestCount;maxAmount=5000;expiration=5s;label1=ratings</div></pre></td></tr></table></figure></p>
+<p>执行如下命令可以使得rating服务的请求控制在每5秒5000次(限定在reviews v3服务在调用时生效):<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">istioctl mixer rule create global ratings.default.svc.cluster.local -f ratelimit.yaml</div></pre></td></tr></table></figure></p>
+<h2 id="简单的访问控制"><a href="#简单的访问控制" class="headerlink" title="简单的访问控制"></a>简单的访问控制</h2><p>Istio可以通过设置规则实现简单的访问控制.</p>
+<h3 id="使用denials属性"><a href="#使用denials属性" class="headerlink" title="使用denials属性"></a>使用denials属性</h3><p>例如:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">rules:</div><div class="line">- aspects:</div><div class="line">  - kind: denials</div><div class="line">  selector: source.labels[&quot;app&quot;]==&quot;reviews&quot; &amp;&amp; source.labels[&quot;version&quot;] == &quot;v3&quot;</div></pre></td></tr></table></figure></p>
+<p>执行如下命令可以使rating服务拒绝来自reviews v3服务的任何请求.</p>
+<p>istioctl mixer rule create global ratings.default.svc.cluster.local -f samples/apps/bookinfo/mixer-rule-ratings-denial.yaml</p>
+<h3 id="使用黑白名单"><a href="#使用黑白名单" class="headerlink" title="使用黑白名单"></a>使用黑白名单</h3><p>使用黑白名单之前需要先定义一个adapter,如下:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">- name: versionList</div><div class="line">  impl: genericListChecker</div><div class="line">  params:</div><div class="line">    listEntries: [&quot;v1&quot;, &quot;v2&quot;]</div></pre></td></tr></table></figure>
+<p>启用白名单时blacklist设置为false,反之为true.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">rules:</div><div class="line">  aspects:</div><div class="line">  - kind: lists</div><div class="line">    adapter: versionList</div><div class="line">    params:</div><div class="line">      blacklist: false</div><div class="line">      checkExpression: source.labels[&quot;version&quot;]</div></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/hono/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xi Ning Wang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/bio.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Technical Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/hono/" itemprop="url">
+                  IoT Platform
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-27T20:46:25+08:00">
+                2017-05-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/分布式-云计算/" itemprop="url" rel="index">
+                    <span itemprop="name">分布式&云计算</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/分布式-云计算/IOT/" itemprop="url" rel="index">
+                    <span itemprop="name">IOT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/hono/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="hono/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p>因为本人的开发环境是Mac，所以需要使用socat工具来转发，从而可以访问Remote Docker API。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">socat TCP-LISTEN:1234,reuseaddr,fork UNIX-CONNECT:/var/run/docker.sock</div></pre></td></tr></table></figure></p>
+<p>启用Docker Swarm Mode:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker swarm init</div></pre></td></tr></table></figure></p>
+<p>编译整个项目，进入项目根目录，运行：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mvn clean install -Ddocker.host=tcp://$&#123;host&#125;:$&#123;port&#125; -Pbuild-docker-image</div></pre></td></tr></table></figure></p>
+<p>其中，${host}是docker host的IP地址或域名，${port}是可以访问Remote Docker API的端口。如前面所述，Mac环境下使用了socat进行端口转发，因此这儿的port则是socat参数中的监听端口。例如：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mvn clean install -Ddocker.host=tcp://127.0.0.1:1234 -Pbuild-docker-image</div></pre></td></tr></table></figure></p>
+<p>如果不执行测试用例、也不编译测试用例类，执行：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mvn clean install -Ddocker.host=tcp://127.0.0.1:1234 -Pbuild-docker-image -Dmaven.test.skip=true</div></pre></td></tr></table></figure></p>
+<h2 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h2><p>使用docker stack deploy启动整个服务：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~/hono/example/target/hono$ docker stack deploy -c docker-compose.yml hono</div></pre></td></tr></table></figure></p>
+<p>运行结束之后会启动一个overlay网络和若干service，结果如下:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">Creating network hono_hono-net</div><div class="line">Creating service hono_hono</div><div class="line">Creating service hono_kafka</div><div class="line">Creating service hono_qdrouter</div><div class="line">Creating service hono_zookeeper</div><div class="line">Creating service hono_rest-adapter</div><div class="line">Creating service hono_auth-server</div><div class="line">Creating service hono_influxdb</div><div class="line">Creating service hono_mqtt-adapter</div><div class="line">Creating service hono_grafana</div><div class="line">Creating service hono_device-registry</div><div class="line">Creating service hono_artemis</div></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/kubernetes-deployment/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xi Ning Wang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/bio.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Technical Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/kubernetes-deployment/" itemprop="url">
+                  容器集群、网络连接、自动化部署
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-12T20:46:25+08:00">
+                2017-05-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/分布式-云计算/" itemprop="url" rel="index">
+                    <span itemprop="name">分布式&云计算</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/分布式-云计算/Kubernetes/" itemprop="url" rel="index">
+                    <span itemprop="name">Kubernetes</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/kubernetes-deployment/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="kubernetes-deployment/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="容器与编排"><a href="#容器与编排" class="headerlink" title="容器与编排"></a>容器与编排</h2><p>毋庸置疑,容器是未来的最为重要的配置编排格式之一, 打包应用程序也将会变得更加容易。虽然像Docker这样的工具提供真实的容器，但是也需要其他工具来处理如replication，failover以及API来自动化部署到多个机器。</p>
+<h2 id="用Kubernetes来进行负载均衡"><a href="#用Kubernetes来进行负载均衡" class="headerlink" title="用Kubernetes来进行负载均衡"></a>用Kubernetes来进行负载均衡</h2><p>Service在部署之前存在一个IP地址，但是这个地址只存在于Kubernetes集群之内。这也就意味着Service对于网络来说根本不可用！当运行在谷歌GCE上的时候，Kubernetes能够自动配置一个负载均衡器来访问应用程序。如果你不是在谷歌GCE上面的话，你就需要做些额外的工作来使负载均衡运行起来。</p>
+<p>将Service直接暴露到一个主机端口也可以，这就是经常使用的方式，但这会令很多Kubernetes的优势无法充分发挥。如果依赖主机上的端口，那么当部署多个应用程序的时候，就会陷入端口冲突,这也使得调度集群或者替代主机变得更加困难。</p>
+<p>参见–&gt; <a href="/kubernetes-ingress/">Kubernetes Ingress</a></p>
+<p><img src="/images/ingress-nginx.png" alt="ingress-nginx"></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/distributed-lock/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xi Ning Wang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/bio.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Technical Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/distributed-lock/" itemprop="url">
+                  分布式锁
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-08T20:46:25+08:00">
+                2017-05-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/分布式-云计算/" itemprop="url" rel="index">
+                    <span itemprop="name">分布式&云计算</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/分布式-云计算/分布式技术架构/" itemprop="url" rel="index">
+                    <span itemprop="name">分布式技术架构</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/distributed-lock/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="distributed-lock/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="分布式锁"><a href="#分布式锁" class="headerlink" title="分布式锁"></a>分布式锁</h2><p>分布式锁，是控制分布式系统之间同步访问共享资源的一种方式。在分布式系统中，常常需要协调他们的动作。如果不同的系统或是同一个系统的不同主机之间共享了一个或一组资源，那么访问这些资源的时候，往往需要互斥来防止彼此干扰来保证一致性，在这种情况下，便需要使用到分布式锁。</p>
+<blockquote>
+<p>保证一个方法在同一时间内只能被同一个线程执行</p>
+</blockquote>
+<p>分布式锁期望的效果:</p>
+<blockquote>
+<p>可以保证在分布式部署的应用集群中，同一个方法在同一时间只能被一台机器上的一个线程执行。</p>
+<p>这把锁要是一把可重入锁（避免死锁）</p>
+<p>这把锁最好是一把阻塞锁（根据业务需求考虑要不要这条）</p>
+<p>有高可用的获取锁和释放锁功能</p>
+<p>获取锁和释放锁的性能要好</p>
+</blockquote>
+<h2 id="实现方式"><a href="#实现方式" class="headerlink" title="实现方式"></a>实现方式</h2><h3 id="基于数据库实现分布式锁"><a href="#基于数据库实现分布式锁" class="headerlink" title="基于数据库实现分布式锁"></a>基于数据库实现分布式锁</h3><p>要实现分布式锁，最简单的方式可能就是直接创建一张锁表，然后通过操作该表中的数据来实现了。</p>
+<p>当我们要锁住某个方法或资源时，我们就在该表中增加一条记录，想要释放锁的时候就删除这条记录。</p>
+<p>上面这种简单的实现有以下几个问题：</p>
+<blockquote>
+<p>1、这把锁强依赖数据库的可用性，数据库是一个单点，一旦数据库挂掉，会导致业务系统不可用。</p>
+<p>2、这把锁没有失效时间，一旦解锁操作失败，就会导致锁记录一直在数据库中，其他线程无法再获得到锁。</p>
+<p>3、这把锁只能是非阻塞的，因为数据的insert操作，一旦插入失败就会直接报错。没有获得锁的线程并不会进入排队队列，要想再次获得锁就要再次触发获得锁操作。</p>
+<p>4、这把锁是非重入的，同一个线程在没有释放锁之前无法再次获得该锁。因为数据中数据已经存在了。</p>
+</blockquote>
+<p>当然，也可以有其他方式解决上面的问题。</p>
+<ul>
+<li>数据库是单点？搞两个数据库，数据之前双向同步。一旦挂掉快速切换到备库上。</li>
+<li>没有失效时间？只要做一个定时任务，每隔一定时间把数据库中的超时数据清理一遍。</li>
+<li>非阻塞的？搞一个while循环，直到insert成功再返回成功。</li>
+<li>非重入的？在数据库表中加个字段，记录当前获得锁的机器的主机信息和线程信息，那么下次再获取锁的时候先查询数据库，如果当前机器的主机信息和线程信息在数据库可以查到的话，直接把锁分配给他就可以了。</li>
+</ul>
+<h3 id="基于缓存实现分布式锁"><a href="#基于缓存实现分布式锁" class="headerlink" title="基于缓存实现分布式锁"></a>基于缓存实现分布式锁</h3><p>相比较于基于数据库实现分布式锁的方案来说，基于缓存来实现在性能方面会表现的更好一点。而且很多缓存是可以集群部署的，可以解决单点问题。</p>
+<p>目前有很多成熟的缓存产品，包括Redis，memcached等.可以通过设置失效时间, 到达时间之后锁会自动释放.</p>
+<p>但是, 失效时间设置多长时间为好？如何设置的失效时间太短，方法没等执行完，锁就自动释放了，那么就会产生并发问题。如果设置的时间太长，其他获取锁的线程就可能要平白的多等一段时间。</p>
+<ul>
+<li><p>优点: 性能好，实现起来较为方便。</p>
+</li>
+<li><p>缺点: 通过超时时间来控制锁的失效时间并不是十分的靠谱。</p>
+</li>
+</ul>
+<h3 id="基于Zookeeper实现分布式锁"><a href="#基于Zookeeper实现分布式锁" class="headerlink" title="基于Zookeeper实现分布式锁"></a>基于Zookeeper实现分布式锁</h3><p>大致思想即为：</p>
+<blockquote>
+<p>每个客户端对某个方法加锁时，在zookeeper上的与该方法对应的指定节点的目录下，生成一个唯一的瞬时有序节点。 判断是否获取锁的方式很简单，只需要判断有序节点中序号最小的一个。 当释放锁的时候，只需将这个瞬时节点删除即可。同时，其可以避免服务宕机导致的锁无法释放，而产生的死锁问题。</p>
+</blockquote>
+<p>实现程度:</p>
+<ul>
+<li><p>锁无法释放？</p>
+<blockquote>
+<p>使用Zookeeper可以有效的解决锁无法释放的问题，因为在创建锁的时候，客户端会在ZK中创建一个临时节点，一旦客户端获取到锁之后突然挂掉（Session连接断开），那么这个临时节点就会自动删除掉。其他客户端就可以再次获得锁。</p>
+</blockquote>
+</li>
+<li><p>非阻塞锁？</p>
+<blockquote>
+<p>使用Zookeeper可以实现阻塞的锁，客户端可以通过在ZK中创建顺序节点，并且在节点上绑定监听器，一旦节点有变化，Zookeeper会通知客户端，客户端可以检查自己创建的节点是不是当前所有节点中序号最小的，如果是，那么自己就获取到锁，便可以执行业务逻辑了。</p>
+</blockquote>
+</li>
+<li><p>不可重入？</p>
+<blockquote>
+<p>使用Zookeeper也可以有效的解决不可重入的问题，客户端在创建节点的时候，把当前客户端的主机信息和线程信息直接写入到节点中，下次想要获取锁的时候和当前最小的节点中的数据比对一下就可以了。如果和自己的信息一样，那么自己直接获取到锁，如果不一样就再创建一个临时的顺序节点，参与排队。</p>
+</blockquote>
+</li>
+<li><p>单点问题？</p>
+<blockquote>
+<p>使用Zookeeper可以有效的解决单点问题，ZK是集群部署的，只要集群中有半数以上的机器存活，就可以对外提供服务。</p>
+</blockquote>
+</li>
+</ul>
+<p>可以直接使用zookeeper第三方库Curator客户端，这个客户端中封装了一个可重入的锁服务。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">public boolean tryLock(long timeout, TimeUnit unit) throws InterruptedException &#123;</div><div class="line">    try &#123;</div><div class="line">        return interProcessMutex.acquire(timeout, unit);</div><div class="line">    &#125; catch (Exception e) &#123;</div><div class="line">        e.printStackTrace();</div><div class="line">    &#125;</div><div class="line">    return true;</div><div class="line">&#125;</div><div class="line">public boolean unlock() &#123;</div><div class="line">    try &#123;</div><div class="line">        interProcessMutex.release();</div><div class="line">    &#125; catch (Throwable e) &#123;</div><div class="line">        log.error(e.getMessage(), e);</div><div class="line">    &#125; finally &#123;</div><div class="line">        executorService.schedule(new Cleaner(client, path), delayTimeForClean, TimeUnit.MILLISECONDS);</div><div class="line">    &#125;</div><div class="line">    return true;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>Curator提供的InterProcessMutex是分布式锁的实现。acquire方法用户获取锁，release方法用于释放锁。</p>
+<p>但是，Zookeeper实现的分布式锁其实存在一个缺点，那就是性能上可能并没有缓存服务那么高。因为每次在创建锁和释放锁的过程中，都要动态创建、销毁瞬时节点来实现锁功能。ZK中创建和删除节点只能通过Leader服务器来执行，然后将数据sync到所有的Follower机器上。</p>
+<p>此外，使用Zookeeper也有可能带来并发问题，只是并不常见而已。考虑这样的情况，由于网络抖动，客户端可ZK集群的session连接断了，那么zk以为客户端挂了，就会删除临时节点，这时候其他客户端就可以获取到分布式锁了,就可能产生并发问题。</p>
+<blockquote>
+<p>这个问题不常见是因为zk有重试机制，一旦zk集群检测不到客户端的心跳，就会重试，Curator客户端支持多种重试策略。多次重试之后还不行的话才会删除临时节点。</p>
+<p>选择一个合适的重试策略也比较重要，要在锁的粒度和并发之间找一个平衡。</p>
+</blockquote>
+<h2 id="三种方案的比较"><a href="#三种方案的比较" class="headerlink" title="三种方案的比较"></a>三种方案的比较</h2><p>上面几种方式，哪种方式都无法做到完美。就像CAP一样，在复杂性、可靠性、性能等方面无法同时满足，所以，根据不同的应用场景选择最适合自己的才是王道。</p>
+<ul>
+<li><p>从理解的难易程度角度（从低到高）</p>
+<ul>
+<li>数据库 &gt; 缓存 &gt; Zookeeper</li>
+</ul>
+</li>
+<li><p>从实现的复杂性角度（从低到高）</p>
+<ul>
+<li>Zookeeper &gt;= 缓存 &gt; 数据库</li>
+</ul>
+</li>
+<li><p>从性能角度（从高到低）</p>
+<ul>
+<li>缓存 &gt; Zookeeper &gt;= 数据库</li>
+</ul>
+</li>
+<li><p>从可靠性角度（从高到低）</p>
+<ul>
+<li>Zookeeper &gt; 缓存 &gt; 数据库</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/README/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xi Ning Wang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/bio.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Technical Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/README/" itemprop="url">
+                  分布式系统架构设计
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-01T20:46:25+08:00">
+                2017-05-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/分布式-云计算/" itemprop="url" rel="index">
+                    <span itemprop="name">分布式&云计算</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/分布式-云计算/分布式技术架构/" itemprop="url" rel="index">
+                    <span itemprop="name">分布式技术架构</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/README/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="README/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="分布式配置管理"><a href="#分布式配置管理" class="headerlink" title="分布式配置管理"></a>分布式配置管理</h2><ul>
+<li><a href="/consul">Consul</a> | etcd</li>
+<li><a href="/archaius">Archaius动态管理</a></li>
+<li><a href="/kubernetes-configmap/">Kubernetes ConfigMap</a></li>
+<li><a href="/kubernetes-secrets/">Kubernetes Secrets</a></li>
+</ul>
+<p>配置的集中管理：采用consul的KV，将所有微服务的application.properties中的配置内容存入consul。</p>
+<p>配置的动态管理：采用archaius，将consul上的配置信息读到spring的PropertySource和archaius的PollResult中，当修改了配置信息后，经常改变的值通过DynamicFactory来获取，不经常改变的值可以通过其他方式获取. 大部分情况下，修改了consul上的配置信息后，相应的项目不需要重启，也会读到最新的值。</p>
+<h2 id="服务注册与发现"><a href="#服务注册与发现" class="headerlink" title="服务注册与发现"></a>服务注册与发现</h2><ul>
+<li><a href="/consul/">Consul</a></li>
+<li>Eureka | Zookeeper | etcd <a href="/servicediscovery">对比</a></li>
+<li><a href="/kubernetes/#service">Kubernetes Service</a></li>
+</ul>
+<h2 id="分布式锁"><a href="#分布式锁" class="headerlink" title="分布式锁"></a>分布式锁</h2><ul>
+<li><a href="/distributed-lock/">分布式锁</a></li>
+</ul>
+<h2 id="负载平衡"><a href="#负载平衡" class="headerlink" title="负载平衡"></a>负载平衡</h2><ul>
+<li>Netflix Ribbon（Spring Cloud）</li>
+<li><p><a href="/kubernetes/#service">Kubernetes Service</a></p>
+<p><a href="/consul/">Client Side Load Balancing</a></p>
+</li>
+</ul>
+<h2 id="API网关与智能路由"><a href="#API网关与智能路由" class="headerlink" title="API网关与智能路由"></a>API网关与智能路由</h2><ul>
+<li>Netflix Zuul（SpringCloud）</li>
+<li><a href="/kubernetes/#service">Kubernetes Service</a></li>
+<li><p><a href="/kubernetes-ingress/">Kubernetes Ingress</a></p>
+<p><a href="/gateway/">Gateway</a></p>
+</li>
+</ul>
+<h2 id="分布式服务弹性与容错"><a href="#分布式服务弹性与容错" class="headerlink" title="分布式服务弹性与容错"></a>分布式服务弹性与容错</h2><ul>
+<li>弹性服务</li>
+<li>服务降级</li>
+<li>线程池/信号隔离</li>
+<li><p>快速解决依赖隔离</p>
+<p><a href="/Hystrix/">Hystrix架构设计</a></p>
+</li>
+</ul>
+<h2 id="日志管理"><a href="#日志管理" class="headerlink" title="日志管理"></a>日志管理</h2><ul>
+<li>ELK Stack（LogStash -&gt; ES -&gt; Kibana）</li>
+</ul>
+<h2 id="分布式跟踪"><a href="#分布式跟踪" class="headerlink" title="分布式跟踪"></a>分布式跟踪</h2><ul>
+<li>Zipkin</li>
+<li><p>SpringCloud Sleuth</p>
+<p><a href="/zipkin/">Zipkin</a> is a distributed tracing system. It helps gather timing data needed to troubleshoot latency problems in microservice architectures. It manages both the collection and lookup of this data. Zipkin’s design is based on the Google Dapper paper.</p>
+<p>Applications are instrumented to report timing data to Zipkin. The Zipkin UI also presents a Dependency diagram showing how many traced requests went through each application. If you are troubleshooting latency problems or errors, you can filter or sort all traces based on the application, length of trace, annotation, or timestamp. Once you select a trace, you can see the percentage of the total trace time each span takes which allows you to identify the problem application.</p>
+</li>
+</ul>
+<h2 id="监控与度量"><a href="#监控与度量" class="headerlink" title="监控与度量"></a>监控与度量</h2><ul>
+<li><p>Application/Infrastructure monitoring using StatsD + Graphite + Grafana</p>
+<p><a href="/sgg/">StatsD + Graphite + Grafana</a></p>
+</li>
+</ul>
+<h2 id="服务安全"><a href="#服务安全" class="headerlink" title="服务安全"></a>服务安全</h2><ul>
+<li>SpringCloud Security</li>
+</ul>
+<h2 id="Auto-Scaling"><a href="#Auto-Scaling" class="headerlink" title="Auto Scaling"></a>Auto Scaling</h2><ul>
+<li><a href="/kubernetes/#Autoscaling">Kubernetes Autoscaling</a></li>
+</ul>
+<h2 id="打包部署和调度部署"><a href="#打包部署和调度部署" class="headerlink" title="打包部署和调度部署"></a>打包部署和调度部署</h2><ul>
+<li>Spring Boot；</li>
+<li><a href="/kubernetes/#Deployment">Docker／Rkt、Kubernetes Scheduler&amp;Deployment</a></li>
+</ul>
+<h2 id="任务工作管理"><a href="#任务工作管理" class="headerlink" title="任务工作管理"></a>任务工作管理</h2><ul>
+<li>Spring Batch</li>
+<li><a href="/kubernetes/#Job">Kubernetes Jobs</a></li>
+</ul>
+<h2 id="分布式存储"><a href="#分布式存储" class="headerlink" title="分布式存储"></a>分布式存储</h2><h3 id="持久化-分布式文件系统"><a href="#持久化-分布式文件系统" class="headerlink" title="持久化 - 分布式文件系统"></a>持久化 - 分布式文件系统</h3><ul>
+<li><a href="/hdfs/">HDFS分布式文件系统</a></li>
+</ul>
+<h3 id="持久化-分布式数据库"><a href="#持久化-分布式数据库" class="headerlink" title="持久化 - 分布式数据库"></a>持久化 - 分布式数据库</h3><ul>
+<li>[传统关系型数据库集群,如MySQL Cluster]</li>
+<li><a href="/mongo/">Mongo</a></li>
+<li><a href="/hbase/">Cassandra,HBase</a></li>
+</ul>
+<h3 id="非持久化-分布式缓存-消息系统"><a href="#非持久化-分布式缓存-消息系统" class="headerlink" title="非持久化 - 分布式缓存/消息系统"></a>非持久化 - 分布式缓存/消息系统</h3><ul>
+<li><a href="/kafka/">Kafka</a></li>
+<li>[Redis]</li>
+</ul>
+<h2 id="分布式计算框架"><a href="#分布式计算框架" class="headerlink" title="分布式计算框架"></a>分布式计算框架</h2><ul>
+<li><a href="/yarn/">YARN分布式计算框架</a></li>
+<li><a href="/yarn-appdev/">YARN应用开发的几种方式</a></li>
+<li><a href="/running-spark-on-yarn/">Running Spark on YARN</a></li>
+<li><a href="/spark/">Spark Big Data Analytics</a></li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/spark/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xi Ning Wang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/bio.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Technical Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/spark/" itemprop="url">
+                  Spark
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-09T20:46:25+08:00">
+                2017-04-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/spark/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="spark/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/sgg/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xi Ning Wang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/bio.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Technical Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/sgg/" itemprop="url">
+                  StatsD - Graphite - Grafana
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-09T20:46:25+08:00">
+                2017-04-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/sgg/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="sgg/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>#1. StatsD - metrics data collecting</p>
+<ul>
+<li>In your application code, use the StatsD client (e.g. Java client library) to collect and send the statistics and aggregation data to StatsD server;</li>
+<li>Not need to pre-define the metrics in anywhere, just place them into your application code;</li>
+<li>By default, stats data are aggregated and sent to Graphite server by every 10 seconds, so think this near-realtime;</li>
+</ul>
+<p>#2. Graphite - metrics data graphing and storage</p>
+<ul>
+<li>Store numeric time-series data: The metric data would be stored into Graphite server (include a Whisper database);</li>
+<li>Render the graph for metrics data per the metrics demand;</li>
+<li>The pre-built UI dashboard is not powerful shown as below, but can easily use it to view the metrics data;</li>
+<li>For production environment, Graphite server should be running as cluster instead of stand-alone server;</li>
+</ul>
+<p>#3. Grafana - powerful dashboard for visualizing the metrics data</p>
+<ul>
+<li>easy to integrate with Graphite to visualize the metrics data;</li>
+<li>input the Graphite HTTP URL to link to Graphite as data source;</li>
+<li>powerful pre-built reporting charts and dashboard;</li>
+</ul>
+<p>#4.  Sample Code:</p>
+<ul>
+<li>easy to feed the data to StatsD -&gt; Graphite -&gt; Grafana<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">private static final StatsDClient statsd = new NonBlockingStatsDClient(&quot;app.api-analytics.sample&quot;, &quot;127.0.0.1&quot;,</div><div class="line">     8125);</div><div class="line">statsd.count(&quot;get.request&quot;, (long)(Math.random()* 10)); // Request count of this API</div></pre></td></tr></table></figure>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/bio.png"
+               alt="Xi Ning Wang" />
+          <p class="site-author-name" itemprop="name">Xi Ning Wang</p>
+           
+              <p class="site-description motion-element" itemprop="description">专注于分布式技术架构、认知IoT云平台</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">32</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">21</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Xi Ning Wang</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://.disqus.com/count.js" async></script>
+    
+
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
